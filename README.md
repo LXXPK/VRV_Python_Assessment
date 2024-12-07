@@ -1,11 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log Analysis Script - README</title>
-</head>
-<body>
     <h1>Log Analysis Script</h1>
     <p>This script is designed to analyze server logs and provide insights into request patterns, suspicious activities, and endpoint usage. The evaluation is based on IP requests, endpoint access frequencies, and failed login attempts.</p>
 
@@ -53,7 +45,7 @@
     <h2>Results and Outputs</h2>
     <h3>Console Output</h3>
     <p>The script generates the following in the console:</p>
-    <pre>
+   
 IP Address Request Counts:
 192.168.1.1          120
 10.0.0.1             80
@@ -64,7 +56,7 @@ Most Frequently Accessed Endpoint:
 Suspicious Activity Detected:
 IP Address            Failed Login Attempts
 192.168.1.100         12
-    </pre>
+
 
     <h3>CSV File</h3>
     <p>The <code>log_analysis_results.csv</code> file contains:</p>
@@ -91,5 +83,4 @@ IP Address            Failed Login Attempts
 
     <h2>License</h2>
     <p>This project is submitted as part of an assessment and is for educational purposes only.</p>
-</body>
-</html>
+
