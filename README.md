@@ -43,9 +43,9 @@ Results are displayed in the terminal and saved to a CSV file.
 1. IP Request Counts: Shows how many requests were made by each IP.
    - Most Accessed Endpoint: Displays the endpoint with the highest access count.
    - Suspicious Activity: Lists IPs with failed login attempts exceeding the threshold.
-   - CSV File (log_analysis_results.csv):
-
-2. Contains:
+  
+2. CSV File (log_analysis_results.csv):
+   Contains:
    - IP request counts.
    - The most accessed endpoint with its access count.
    - Suspicious IPs with their failed login attempts.
