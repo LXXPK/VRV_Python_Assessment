@@ -35,12 +35,12 @@ Results are displayed in the terminal and saved to a CSV file.
    -Be displayed in the terminal.
    -Be saved to log_analysis_results.csv in the same directory.
 
-##Output
-#Terminal Output:
+### Output
+## Terminal Output:
 
 1. IP Request Counts: Shows how many requests were made by each IP.
-   -*Most Accessed Endpoint*: Displays the endpoint with the highest access count.
-   -*Suspicious Activity*: Lists IPs with failed login attempts exceeding the threshold.
+   -Most Accessed Endpoint: Displays the endpoint with the highest access count.
+   -Suspicious Activity: Lists IPs with failed login attempts exceeding the threshold.
    -CSV File (log_analysis_results.csv):
 
 2. Contains:
