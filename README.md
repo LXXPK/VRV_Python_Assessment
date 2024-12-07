@@ -32,25 +32,25 @@ Results are displayed in the terminal and saved to a CSV file.
    ```bash
    python log_analysis.py
 4. The results will:
-   -Be displayed in the terminal.
-   -Be saved to log_analysis_results.csv in the same directory.
+   - Be displayed in the terminal.
+   - Be saved to log_analysis_results.csv in the same directory.
 
 ### Output
 ## Terminal Output:
 
 1. IP Request Counts: Shows how many requests were made by each IP.
-   -Most Accessed Endpoint: Displays the endpoint with the highest access count.
-   -Suspicious Activity: Lists IPs with failed login attempts exceeding the threshold.
-   -CSV File (log_analysis_results.csv):
+   - Most Accessed Endpoint: Displays the endpoint with the highest access count.
+   - Suspicious Activity: Lists IPs with failed login attempts exceeding the threshold.
+   - CSV File (log_analysis_results.csv):
 
 2. Contains:
-   -IP request counts.
-   -The most accessed endpoint with its access count.
-   -Suspicious IPs with their failed login attempts.
+   - IP request counts.
+   - The most accessed endpoint with its access count.
+   - Suspicious IPs with their failed login attempts.
 
-##Configuration
+## Configuration
 You can customize the following variables in the script:
 
-*log_file*: The name of the log file (default: sample.log).
-*failed_threshold*: The number of failed login attempts to consider suspicious (default: 10).
+- log_file: The name of the log file (default: sample.log).
+- failed_threshold: The number of failed login attempts to consider suspicious (default: 10).
 
