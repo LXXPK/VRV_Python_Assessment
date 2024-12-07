@@ -45,7 +45,6 @@ Results are displayed in the terminal and saved to a CSV file.
    - Suspicious Activity: Lists IPs with failed login attempts exceeding the threshold.
   
 2. CSV File (log_analysis_results.csv):
-   Contains:
    - IP request counts.
    - The most accessed endpoint with its access count.
    - Suspicious IPs with their failed login attempts.
