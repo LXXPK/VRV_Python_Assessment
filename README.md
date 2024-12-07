@@ -35,6 +35,8 @@ Results are displayed in the terminal and saved to a CSV file.
    - Be displayed in the terminal.
    - Be saved to log_analysis_results.csv in the same directory.
 
+---
+
 ### Output
 ## Terminal Output:
 
@@ -47,7 +49,7 @@ Results are displayed in the terminal and saved to a CSV file.
    - IP request counts.
    - The most accessed endpoint with its access count.
    - Suspicious IPs with their failed login attempts.
-
+---
 ## Configuration
 You can customize the following variables in the script:
 
